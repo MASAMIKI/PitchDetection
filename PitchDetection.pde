@@ -116,11 +116,7 @@ void draw()
   // Show Information
   fill(255);
   textSize(12);
-  
-  if (average <= 0.001f){
-    return;
-  }
-  
+    
   // How many cross points in 44100 points that is sampled in a second.
   int zeroC = countZeroCrossings();    
   text("Zero crossings count: " + zeroC, 5, 30);
