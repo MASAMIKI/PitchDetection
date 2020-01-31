@@ -52,7 +52,7 @@ void setup()
   min = Float.MAX_VALUE;
   max = Float.MIN_VALUE;
   
-  String dbName = sketchPath("tune.sqlite");
+  String dbName = sketchPath("wave.sqlite");
   wsm = new WaveSQLManager(dbName);
 }
 
